@@ -54,7 +54,7 @@ public class Pictures extends Fragment implements FitnessPictureAdapter.MyListen
     private ArrayList<FitnessMoves> getFitnessMoves(ArrayList<FitnessMoves> fitnessMoves) {
 
         for (int i = 0; i < 16; i++) {
-            String url = "http://www.atilsamancioglu.com/wp-content/uploads/2018/06/fitness" + i + ".jpg";
+            String url = "";
             Log.e("PicturesJava", url);
             fitnessMoves.add(new FitnessMoves("Fitness Move Name" + i,
                     url,
